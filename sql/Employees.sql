@@ -1,5 +1,5 @@
 
-
+DROP TABLE IF EXISTS mydb.employees;
 
 CREATE TABLE mydb.employees (
   id INT AUTO_INCREMENT PRIMARY KEY,
@@ -9,6 +9,8 @@ CREATE TABLE mydb.employees (
   salary DECIMAL(10,2),
   employee_id INT
 );
+
+DESCRIBE mydb.employees;
 
 INSERT INTO mydb.employees (name, surname, age, salary, employee_id)
 VALUES
