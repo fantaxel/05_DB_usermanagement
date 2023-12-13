@@ -21,3 +21,6 @@ INSERT INTO mydb.countries (country, capital, population) VALUES ('Jordan', 'Amm
 INSERT INTO mydb.countries (country, capital, population) VALUES ('Lebanon', 'Beirut', 7000000);
 INSERT INTO mydb.countries (country, capital, population) VALUES ('Oman', 'Muscat', 5000000);
 INSERT INTO mydb.countries (country, capital, population) VALUES ('Qatar', 'Doha', 3000000);
+
+
+SELECT * FROM mydb.countries;

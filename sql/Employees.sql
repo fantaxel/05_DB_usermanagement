@@ -24,3 +24,5 @@ VALUES
   ('Emily', 'Davis', 32, 62000.00, 654),
   ('David', 'Taylor', 38, 72000.00, 987),
   ('Karen', 'Wilson', 42, 78000.00, 432);
+  
+  SELECT * FROM mydb.employees;
