@@ -1,5 +1,5 @@
 
 -- calls ..
 
-source sql/01_tab_I.sql;
-source sql/02_tab_II.sql;
+source sql/Countries.sql;
+source sql/Employees.sql;
